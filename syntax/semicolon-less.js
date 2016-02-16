@@ -40,3 +40,12 @@ console.log('hello')
 var a = 1
 var b = 2
 var c = 3
+
+a++
+
+var d = 4;
+
+++a
+
+var e = 5;
+
