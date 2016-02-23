@@ -19,6 +19,13 @@ function () {
 
 }
 
+/d/g
+/d/i
+/d/m
+/d/u
+/d/y
+/d/gimuy
+
 var a = 1;
 a++;
 ++a;
