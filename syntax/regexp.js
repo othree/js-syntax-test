@@ -31,5 +31,6 @@ a -= 1;
 a = a + 100;
 a = a + /* comment */ 100;
 
-a+++;
-a---;
+a+++; // expect to see invalid red
+a---; // expect to see invalid red
+
