@@ -1,0 +1,12 @@
+
+function p(a, b = (function () { return 100 }())) {}
+
+function p({a, b = (function () { return 100 }())}) {}
+
+function p({
+  a, 
+  b = (function () { return 100 }())}) {
+}
+
+function p([a, b, c, ...d])
+
