@@ -46,5 +46,7 @@ switch (Animal) {
   }
 }
 
+
+// Expect to see red reserved word
 case
 
