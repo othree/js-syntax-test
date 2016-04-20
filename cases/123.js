@@ -6,3 +6,5 @@ describe("<welcome />", () => {
 });
 
 
+$.ajax(() => {})
+
