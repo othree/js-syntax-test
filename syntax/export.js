@@ -1,3 +1,11 @@
+export var color = "red";
+export let name = "Nicholas";
+export const magicNumber = 7;
+
+export default function(num1, num2) {
+    return num1 + num2;
+}
+
 export { myFunc as default } from 'foo';
 export { default as otherFunc } from 'foo';
 export { default } from 'foo';
