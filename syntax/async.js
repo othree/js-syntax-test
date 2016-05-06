@@ -16,3 +16,7 @@ describe('Foo', () => {
   });
 
 });
+
+class Foo {
+  async Method1() {}
+}
