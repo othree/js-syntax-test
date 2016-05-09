@@ -7,7 +7,7 @@ switch (Animal) {
 
 // No Quoted Case + No Block is OK
 
-switch (Animal) {
+switch (`Animal`) {
   case Animal:
     const meat = 'what'
     break
@@ -44,6 +44,8 @@ switch (Animal) {
     const thing = 'what'
     break
   }
+  default:
+    1;
 }
 
 
