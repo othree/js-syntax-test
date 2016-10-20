@@ -17,3 +17,5 @@ var str6 = `abcde${({
 var str7 = `abcde${(function () { 
   return `edcba${str1 + `zz${1}zz`}edcba`; 
 }())}abcde`;
+
+var str8 = tag1`abcd ${a}`
