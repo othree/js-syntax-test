@@ -2,7 +2,7 @@ const CONSTANT = 'CONSTANT';
 
 const obj = {
 
-  CONSTAN(a) {
+  CONSTAN (a) {
     return a * 3;
   },
 
@@ -12,6 +12,22 @@ const obj = {
 
   [ 'a' ]: function () {
     return 42;
+  },
+
+  "string" () {
+    return '*/*';
+  },
+
+  123 () {
+    return '*/*';
   }
 
 };
+
+const test = {
+  'test'() {
+    what('ACCEPTS */*...')
+
+    const ohno = 'what'
+  }
+}
