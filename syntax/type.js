@@ -1,0 +1,24 @@
+
+let array: number[] = [1, 2, 3.14, 42];
+let theAnswer: number = array[3]; // 42
+let offTheEnd: number = array[100]; // No error
+
+let array2: Array<string> = ["an alternate", "syntax", "for arrays"];
+
+function isNumber(x: any): x is number {
+    return typeof x === "number";
+}
+
+function isString(x: any): x is string {
+    return typeof x === "string";
+}
+
+function padLeft(value: string, padding: string | number) {
+    if (isNumber(padding)) {
+        return Array(padding + 1).join(" ") + value;
+    }
+    if (isString(padding)) {
+        return padding + value;
+    }
+    throw new Error(`Expected string or number, got '${padding}'.`);
+}
