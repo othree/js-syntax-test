@@ -23,7 +23,12 @@ class Bar extends foo {
   }
 }
 
+var foo = foo.bar ? `${zzz}` : `${xd}` ;
+var Foobar = {
+  foo: foo.bar ? `${zzz}` : `${xd}` ;
+}
 var Foobar = class {
+  foo = foo.bar ? `${zzz}` : `${xd}` ;
   constructor () {
     return '*/*';
   }
