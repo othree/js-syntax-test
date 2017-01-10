@@ -23,6 +23,8 @@ const object = {
     }),
 };
 
+app.get('/*', (req, res) => res.status(404).end());
+
 export default ({method = 'get', url, version = 1, controller, query = {}, data, headers}) => {
   url = controller ? url : `/api/v${version}${url}`
   let token = session.getToken()
