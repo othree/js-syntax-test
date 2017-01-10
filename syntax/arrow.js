@@ -27,3 +27,24 @@ export default ({method = 'get', url, version = 1, controller, query = {}, data,
   url = controller ? url : `/api/v${version}${url}`
   let token = session.getToken()
 }
+
+import React, { PropTypes } from 'react'
+import { languages } from '../config'
+
+function Form ({ handleLanguageChange, language }) {
+  return (
+    aa => { return 'x'; }
+  )
+  return (
+    <div>
+      <label htmlFor='language'>Language: </label>
+      <select id='language' value={language} onChange={handleLanguageChange}>
+        { languages.map((language, index) => {
+          return <option value={language} key={index}> {language} </option>
+        })}
+      </select>
+    </div>
+  )
+}
+
+export default Form
