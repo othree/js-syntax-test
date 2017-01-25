@@ -32,7 +32,9 @@ var Foobar = class {
   constructor () {
     return '*/*';
   }
-
+  fetch () {
+    return 1;
+  }
   method1 () {
     return '*/*';
   }
