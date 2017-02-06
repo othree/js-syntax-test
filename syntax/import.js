@@ -5,3 +5,5 @@ import { name, setName } from "example.js";
 import { add as sum } from "example.js";
 import { sum, multiply, magicNumber } from "example.js";
 
+import('x.js');
+func('test');
