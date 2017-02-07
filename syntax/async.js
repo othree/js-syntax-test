@@ -1,3 +1,8 @@
+async function foo() {}
+const foo = async function () {};
+let obj = { async foo() {} }
+const foo = async () => {};
+
 const xs = [];
 
 describe('Foo', () => {
