@@ -4,6 +4,8 @@
 function xd (arg) { return arg; }
 
 let p = (arg) => {};
+let q = (arg = 1) => {};
+let r = (arg = (2)) => {};
 
 let s = new Set(arr.filter((x) => { return x.p == 1; }));
 
