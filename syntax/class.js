@@ -9,7 +9,7 @@ class Foo {
   }
 }
 
-class Bar extends foo {
+class Bar extends Foo {
   constructor() {
     return '*/*';
   }
@@ -21,6 +21,14 @@ class Bar extends foo {
   method2 () {
     return '*/*';
   }
+}
+
+var Con = function () {
+  return function () {};
+};
+
+class Car extends new Con() {
+  method1 () {}
 }
 
 var foo = foo.bar ? `${zzz}` : `${xd}` ;
