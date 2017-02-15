@@ -28,7 +28,7 @@ function padLeft(value: string, padding: string | number) {
 var a:string = 'a';
 
 async function pullOne (id: string): Promise<*> {
-  // <- code here seems to be still considered as a type
+  // comment!!
   return 1;
 }
 
@@ -37,7 +37,6 @@ class test {
     return 0;
   }
   async pullOne (id: string): Promise<*> {
-    // <- code here seems to be still considered as a type
     return 1;
   }
 }
