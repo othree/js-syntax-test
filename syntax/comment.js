@@ -42,5 +42,16 @@
   pretium lacus at porttitor. 
 */
 
+function validator() {
+  if (!this.validate()) return // this comment doesn't highlight
+  if (!this.validate()) return
+  // this comment doesn't highlight
 
+  if (!this.validate()) return false
+  // this comment does highlight
 
+  if (!this.validate()) {
+    return
+  }
+  // this comment does highlight
+}
