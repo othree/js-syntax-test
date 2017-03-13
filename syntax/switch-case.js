@@ -48,6 +48,10 @@ switch (Animal) {
     1;
 }
 
+switch ($()) {
+  case 'a': {
+  }
+}
 
 // Expect to see red reserved word
 case
