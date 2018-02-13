@@ -19,3 +19,5 @@ var str7 = `abcde${(function () {
 }())}abcde`;
 
 var str8 = tag1`abcd ${a}`
+
+var str9 = `s${`<tag attr=${exp}>${exp}</tag>`}`
