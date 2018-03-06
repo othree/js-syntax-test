@@ -51,4 +51,6 @@ function Form ({ handleLanguageChange, language }) {
   )
 }
 
+async (acc, replacer) => await replacer(acc, request, kbnServer.server)
+
 export default Form
