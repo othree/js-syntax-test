@@ -33,10 +33,19 @@ async function pullOne (id: string): Promise<*> {
 }
 
 class test {
-  async pullZero (id: string) {
+  async pallZero (id: string): number {
+    return 0;
+  }
+  async pullZero (id: string): void {
     return 0;
   }
   async pullOne (id: string): Promise<*> {
     return 1;
   }
 }
+
+var foo1 = bar ? bar : null;
+var foo2 = bar ? bar : void;
+
+foo1 = null;
+foo2 = void;
