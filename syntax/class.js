@@ -36,6 +36,19 @@ var Foobar = {
   foo: foo.bar ? `${zzz}` : `${xd}` ;
 }
 var Foobar = class {
+  constructor () {
+    return '*/*';
+  }
+  fetch () {
+    return 1;
+  }
+  method1 () {
+    return '*/*';
+  }
+  async method2 () {
+  }
+}
+var Foobar2 = class {
   foo = foo.bar ? `${zzz}` : `${xd}` ;
   constructor () {
     return '*/*';
@@ -45,5 +58,7 @@ var Foobar = class {
   }
   method1 () {
     return '*/*';
+  }
+  async method2 () {
   }
 }
