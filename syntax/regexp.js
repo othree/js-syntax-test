@@ -26,6 +26,23 @@ function () {
 /d/y
 /d/gimuy
 
+/foo/
+/foo\\/
+/foo\//
+/foo[\\]/
+/foo[/]/
+/foo\[/
+
+/* Should not match regexp */
+/foo[/
+];
+/foo\/
+=1;
+/foo[\]/
+];
+/foo[\\\]/
+];
+
 var a = 1;
 a++;
 ++a;
