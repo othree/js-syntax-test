@@ -40,3 +40,5 @@ class test {
     return 1;
   }
 }
+
+const _tokenize = (str:string):Array<token> => {}
