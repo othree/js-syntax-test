@@ -21,3 +21,6 @@ var str7 = `abcde${(function () {
 var str8 = tag1`abcd ${a}`
 
 var str9 = `s${`<tag attr=${exp}>${exp}</tag>`}`
+
+var str10 = `<tag attr=${exp}>${exp}</tag>`
+`${`<tag attr=${exp}>${exp}</tag>`}`
