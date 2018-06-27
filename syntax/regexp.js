@@ -55,6 +55,17 @@ a -= 1;
 a = a + 100;
 a = a + /* comment */ 100;
 
+class Foo {
+  constructor(args) {
+    this.foo = args.replace(/\/$/, "");
+  }
+  
+  bar(arg) {
+    if (arg == 0) {}
+  }
+}
+
+
 a+++; // expect to see invalid red
 a---; // expect to see invalid red
 
